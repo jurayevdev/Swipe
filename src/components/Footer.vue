@@ -1,7 +1,7 @@
 <template>
-    <footer class="bg-[#1A1930]">
+    <footer class="bg-[#1A1930] relative ">
         <div class="container mx-auto p-5">
-            <div class="my-14 flex items-center gap-x-96">
+            <div class="my-14 flex items-center 2xl:gap-[500px] gap-32">
                 <div class="flex flex-col gap-10">
                     <a href="/">
                         <img src="../../public/logo/IMAGE (2).png" alt="">
@@ -11,7 +11,7 @@
                         <span>hello.craftengine@gmail.com</span>
                         <span>Made with ❤️ by <a href="#" class="text-[#6259EA]">Craftengine</a>🇺🇦</span>
                     </div>
-                    <p class="text-white text-[14px] mt-14">© Swipe. All rights reserved. Powered by <a href="#"
+                    <p class="text-white text-[14px] mt-10">© Swipe. All rights reserved. Powered by <a href="#"
                             class="text-[#6259EA]">Webflow</a></p>
                 </div>
 
@@ -34,6 +34,7 @@
                         <a href="#" class="hover:underline">Instagram</a>
                         <a href="#" class="hover:underline">Licensing</a>
                     </div>
+                    <img class="absolute bottom-0 right-0" src="../../public/elements/IMAGE.png" alt="">
                 </div>
             </div>
         </div>
@@ -44,4 +45,22 @@
 
 </script>
 
-<style lang="scss" scoped></style>
+<style lang="scss" scoped>
+footer::before {
+    content: '';
+    position: absolute;
+    width: 850px;
+    border-bottom: 1px solid #E7E5FF;
+    bottom: 320px;
+    right: 0;
+}
+
+footer::after {
+    content: '';
+    position: absolute;
+    width: 850px;
+    border-bottom: 1px solid #E7E5FF;
+    bottom: 80px;
+    right: 0;
+}
+</style>
