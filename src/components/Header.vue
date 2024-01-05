@@ -35,14 +35,21 @@
                         </li>
                     </ul>
                 </div>
-                <button class="bg-[rgba(255,255,255,0.4)] w-[139px] h-[60px] shadow-lg rounded-lg border-2 border-solid border-[rgba(255,255,255,0.4)]">Buy now</button>
+                <button
+                    class="bg-[rgba(255,255,255,0.4)] w-[139px] h-[60px] shadow-lg rounded-lg border-2 border-solid border-[rgba(255,255,255,0.4)]">Buy
+                    now</button>
             </nav>
         </div>
     </header>
 </template>
 
 <script setup>
-
+window.addEventListener("scroll", function () {
+    let header = document.querySelector("header");
+    header.classList.toggle("headerText", window.scrollY > 0)
+    header.classList.toggle("backdrop-blur-sm", window.scrollY > 0)
+    header.classList.toggle("bg-white/10", window.scrollY > 0)
+})
 </script>
 
 <style lang="scss" scoped></style>

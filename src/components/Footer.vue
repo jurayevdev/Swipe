@@ -16,25 +16,25 @@
                 </div>
 
                 <div class="text-white flex items-center gap-36">
-                    <div class="flex flex-col gap-2">
+                    <div class="flex flex-col gap-3">
                         <a href="#" class="hover:underline">About</a>
                         <a href="#" class="hover:underline">Features</a>
                         <a href="#" class="hover:underline">Pricing</a>
                         <a href="#" class="hover:underline">Team</a>
                     </div>
-                    <div class="flex flex-col gap-2">
+                    <div class="flex flex-col gap-3">
                         <a href="#" class="hover:underline">FAQ</a>
                         <a href="#" class="hover:underline">Feedback</a>
                         <a href="#" class="hover:underline">Blog</a>
                         <a href="#" class="hover:underline">Contact</a>
                     </div>
-                    <div class="flex flex-col gap-2">
+                    <div class="flex flex-col gap-3">
                         <a href="#" class="hover:underline">Twitter</a>
                         <a href="#" class="hover:underline">Facebook</a>
                         <a href="#" class="hover:underline">Instagram</a>
                         <a href="#" class="hover:underline">Licensing</a>
                     </div>
-                    <img class="absolute bottom-0 right-0" src="../../public/elements/IMAGE.png" alt="">
+                    <img class="absolute z-10 bottom-0 right-0" src="../../public/elements/IMAGE.png" alt="">
                 </div>
             </div>
         </div>
