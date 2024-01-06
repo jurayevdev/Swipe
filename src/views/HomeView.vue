@@ -43,7 +43,7 @@
 
   <section class="bg-blue-200">
     <div class="container mx-auto p-5">
-      <div class="flex items-center gap-56 py-10">
+      <div class="flex items-center gap-56 justify-between py-10">
         <img src="../../public/logo/IMAGE.png" width="110" height="49" alt="">
         <svg xmlns="http://www.w3.org/2000/svg" width="140" height="35" viewBox="0 0 140 35" fill="none">
           <g clip-path="url(#clip0_1_44)">
@@ -161,8 +161,207 @@
     <img class="absolute z-[-10] left-0 top-[400px]" src="../../public/elements/IMAGE (3).png" alt="">
     <img class="absolute z-[-10] bottom-0 left-[36%]" src="../../public/elements/IMAGE (4).png" alt="">
     <img class="absolute z-[-10] right-0 top-[300px]" src="../../public/elements/IMAGE (5).png" alt="">
-</section></template>
+  </section>
+
+  <section class="section-5 relative my-20">
+    <div class="container mx-auto p-5">
+      <h1 class="text-[#2D2B5C] text-[44px] mb-20">Watch video to <br> discover advantages</h1>
+      <img class="w-full" src="../../public/elements/Rectangle-3.png" alt="">
+    </div>
+  </section>
+
+  <section class="section-6 relative my-20">
+    <div class="container mx-auto p-5">
+      <h2 class="text-[#2D2B5C] text-[45px]">No need to know <br> any technologies</h2>
+      <div class="flex items-center justify-between 2xl:gap-56 gap-24">
+        <img src="../../public/elements/IMAGE (6).png" alt="">
+        <div class="flex flex-col gap-14">
+          <h3 class="text-[#2D2B5C] text-[35px]">Easy to understand</h3>
+          <p class="text-[#2D2B5C]">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut fringilla interdum
+            aliquet. Nulla viverra quam
+            sit amet lacus accumsan, ac interdum nibh eleifend. Aliquam at elit at diam congue aliquam at eu felis.
+            Vestibulum sed massa bibendum, porta ex consectetur, commodo tellus.
+            <br>
+            <br>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut fringilla interdum aliquet. Nulla viverra quam
+            sit amet lacus accumsan, ac interdum nibh eleifend. Aliquam at elit at diam congue aliquam at eu felis.
+          </p>
+          <div class="flex items-center gap-2">
+            <div class="w-[14px] h-[14px] bg-[#EA5959]"></div>
+            <p class="text-[#1A1930] uppercase">learn more</p>
+          </div>
+        </div>
+      </div>
+      <h2 class="text-[#2D2B5C] text-[45px] text-right mb-10">Reuse the sections</h2>
+      <div class="flex justify-between 2xl:gap-56 gap-24">
+        <div class="flex flex-col gap-14">
+          <h3 class="text-[#2D2B5C] text-[35px]">Easy to change</h3>
+          <p class="text-[#2D2B5C]">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut fringilla interdum
+            aliquet. Nulla viverra quam
+            sit amet lacus accumsan, ac interdum nibh eleifend. Aliquam at elit at diam congue aliquam at eu felis.
+            Vestibulum sed massa bibendum, porta ex consectetur, commodo tellus.
+            <br>
+            <br>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut fringilla interdum aliquet. Nulla viverra quam
+            sit amet lacus accumsan, ac interdum nibh eleifend. Aliquam at elit at diam congue aliquam at eu felis.
+          </p>
+          <div class="flex items-center gap-2">
+            <div class="w-[14px] h-[14px] bg-[#EA5959]"></div>
+            <p class="text-[#1A1930] uppercase">learn more</p>
+          </div>
+        </div>
+        <img src="../../public/elements/IMAGE (7).png" alt="">
+      </div>
+    </div>
+  </section>
+
+  <section class="section-7 relative mb-20">
+    <div class="container mx-auto p-5">
+      <h2 class="text-[#1A1930] text-[70px] mb-20">Price plans</h2>
+      <div class="flex items-center justify-between gap-10">
+        <div class="flex flex-col gap-10 p-10 w-full bg-[rgba(255,255,255,0.60)] border-2 border-[rgba(255,255,255,0.40)] rounded-lg">
+          <h3 class="text-[#2D2B5C] text-[44px]">Basic</h3>
+          <div class="flex flex-col gap-3 text-[#1A1930]">
+            <span class="flex items-center gap-3"><i class='bx bx-check'></i>Free 30-days trial period</span>
+            <span class="flex items-center gap-3"><i class='bx bx-check'></i>Professional design and guidelines for customization</span>
+            <span class="flex items-center gap-3"><i class='bx bx-check'></i>Unlimited amount of pages to change</span>
+            <span class="flex items-center gap-3 text-[#ABAABB]"><i class='bx bx-check text-[#1A1930]'></i>24/7 technical support</span>
+            <span class="flex items-center gap-3 text-[#ABAABB]"><i class='bx bx-check text-[#1A1930]'></i>Advenced security components</span>
+          </div>
+          <div class="flex justify-between items-end">
+            <div class="flex items-end">
+              <h3 class="text-[#2D2B5C] text-[79px]">$29</h3>
+              <span class="text-[#ABAABB]">/month</span>
+            </div>
+            <button class="bg-[#6259EA] text-white w-[139px] h-[60px] rounded-lg">Buy now</button>
+          </div>
+        </div>
+
+        <div class="flex flex-col gap-10 p-10 w-full bg-[rgba(255,255,255,0.60)] border-2 border-[#6259EA] rounded-lg">
+          <h3 class="text-[#2D2B5C] text-[44px]">Pro</h3>
+          <div class="flex flex-col gap-3 text-[#1A1930]">
+            <span class="flex items-center gap-3"><i class='bx bx-check'></i>Free 30-days trial period</span>
+            <span class="flex items-center gap-3"><i class='bx bx-check'></i>Professional design and guidelines for customization</span>
+            <span class="flex items-center gap-3"><i class='bx bx-check'></i>Unlimited amount of pages to change</span>
+            <span class="flex items-center gap-3"><i class='bx bx-check'></i>24/7 technical support</span>
+            <span class="flex items-center gap-3"><i class='bx bx-check'></i>Advenced security components</span>
+          </div>
+          <div class="flex justify-between items-end">
+            <div class="flex items-end">
+              <h3 class="text-[#2D2B5C] text-[79px]">$39</h3>
+              <span class="text-[#ABAABB]">/month</span>
+            </div>
+            <button class="bg-[#6259EA] text-white w-[139px] h-[60px] rounded-lg">Buy now</button>
+          </div>
+        </div>
+      </div>
+      <img class="absolute top-0 z-[-10] 2xl:left-[50px] left-0" src="../../public/elements/IMAGE (8).png" alt="">
+      <img class="absolute z-[-10] 2xl:right-[110px] right-0 bottom-[120px]" src="../../public/elements/IMAGE (9).png" alt="">
+    </div>
+  </section>
+
+  <section class="mb-20">
+    <div class="container mx-auto p-5">
+      <div class="flex items-center justify-between mb-20">
+        <h2 class="text-[#1A1930] text-[70px]">Meet the team <br> Want to join?</h2>
+        <div class="flex items-center justify-between gap-5">
+          <button class="bg-[#6259EA] text-white rounded-lg w-[130px] h-[60px]">Join us</button>
+          <button class="bg-[rgba(255,255,255,0.40)] w-[205px] h-[60px]  text-[#1A1930] border-2 border-[rgba(255,255,255,0.40)] rounded-lg shadow-lg">See all openings</button>
+        </div>
+      </div>
+
+      <div class="flex items-center justify-between">
+        <button class="flex itmes-center justify-center p-1 text-[40px] rounded-lg bg-white text-[#1A1930] shadow-lg"><i class='bx bx-chevron-left' ></i></button>
+        <div class="mx-16 flex flex-col gap-5 w-full">
+          <div class="flex items-cente justify-between">
+            <div class="flex flex-col gap-5">
+              <img src="../../public/team/IMAGE.png" alt="">
+              <h3 class="text-[#1A1930] text-[20px] text-center">Martin Fury</h3>
+              <p class="text-[#2D2B5C] text-center">CEO & <br> Co-Founder</p>
+            </div>
+            <div class="flex flex-col  gap-5">
+              <img src="../../public/team/IMAGE (1).png" alt="">
+              <h3 class="text-[#1A1930] text-[20px] text-center">Timoty Crash</h3>
+              <p class="text-[#2D2B5C] text-center">CEO & <br> Co-Founder</p>
+            </div>
+            <div class="flex flex-col  gap-5">
+              <img src="../../public/team/IMAGE (2).png" alt="">
+              <h3 class="text-[#1A1930] text-[20px] text-center">Miranda Loudy</h3>
+              <p class="text-[#2D2B5C] text-center">Global HRD</p>
+            </div>
+            <div class="flex flex-col  gap-5">
+              <img src="../../public/team/IMAGE (3).png" alt="">
+              <h3 class="text-[#1A1930] text-[20px] text-center">Jim Partners</h3>
+              <p class="text-[#2D2B5C] text-center">Chief Product Officer</p>
+            </div>
+          </div>
+
+          <div class="flex items-cente justify-between">
+            <div class="flex flex-col gap-5">
+              <img src="../../public/team/IMAGE (4).png" alt="">
+              <h3 class="text-[#1A1930] text-[20px] text-center">Joe Lee</h3>
+              <p class="text-[#2D2B5C] text-center">Lead Product Designer</p>
+            </div>
+            <div class="flex flex-col  gap-5">
+              <img src="../../public/team/IMAGE (5).png" alt="">
+              <h3 class="text-[#1A1930] text-[20px] text-center">Alex Sosnovskyi</h3>
+              <p class="text-[#2D2B5C] text-center">Technical Lead & Senior <br> Software Engineer</p>
+            </div>
+            <div class="flex flex-col  gap-5">
+              <img src="../../public/team/IMAGE (6).png" alt="">
+              <h3 class="text-[#1A1930] text-[20px] text-center">Andy Gupta</h3>
+              <p class="text-[#2D2B5C] text-center">CMO & <br> Marketing Operations</p>
+            </div>
+            <div class="flex flex-col  gap-5">
+              <img src="../../public/team/IMAGE (7).png" alt="">
+              <h3 class="text-[#1A1930] text-[20px] text-center">Dan Wize-Nicon</h3>
+              <p class="text-[#2D2B5C] text-center">UI/UX Designer</p>
+            </div>
+          </div>
+        </div>
+        <button class="flex itmes-center justify-center p-1 text-[40px] rounded-lg bg-white text-[#1A1930] shadow-lg"><i class='bx bx-chevron-right' ></i></button>
+      </div>
+    </div>
+  </section>
+
+</template>
 
 <script setup></script>
 
-<style lang="scss" scoped></style>
+<style lang="scss" scoped>
+.section-5::before {
+  content: '';
+  position: absolute;
+  width: 50%;
+  border-bottom: 1px solid #E7E5FF;
+  top: 90px;
+  right: 0;
+}
+
+.section-6::before {
+  content: '';
+  position: absolute;
+  width: 50%;
+  border-bottom: 1px solid #E7E5FF;
+  top: 90px;
+  right: 0;
+}
+
+.section-6::after {
+  content: '';
+  position: absolute;
+  width: 50%;
+  border-bottom: 1px solid #E7E5FF;
+  bottom: 550px;
+  left: 0;
+}
+
+.section-7::before {
+  content: '';
+  position: absolute;
+  width: 50%;
+  border-bottom: 1px solid #E7E5FF;
+  top: 90px;
+  right: 0;
+}
+</style>
